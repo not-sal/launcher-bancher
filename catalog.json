@@ -1,0 +1,77 @@
+{
+  "name": "Launcher XP app catalog",
+  "version": 2,
+  "user": "not-sal",
+  "hint": "Push this file to github.com/not-sal/launcher-bancher (branch main) with an img/ folder next to it. Every Launcher XP reads it on start: new entries become icons, changed pictures/descriptions are refreshed, and a higher version plus a GitHub release offers an update.",
+  "settings": {
+    "welcome": false,
+    "lang": "ar",
+    "userName": "Bancher",
+    "ghUser": "not-sal"
+  },
+  "apps": [
+    {
+      "id": "5belan",
+      "name": "5belan",
+      "description": "Personal chat client — deepseek_chat.py",
+      "category": "Tools",
+      "repo": "https://github.com/not-sal/5belan",
+      "img": "img/5belan.png",
+      "version": "1.0.0",
+      "pinned": true,
+      "desktop": true,
+      "launch": {
+        "paths": [
+          "%LOCALAPPDATA%\\Programs\\5belan\\5belan.exe"
+        ],
+        "command": "\"%LOCALAPPDATA%\\Programs\\5belan\\.venv\\Scripts\\pythonw.exe\" deepseek_chat.py",
+        "cwd": "%LOCALAPPDATA%\\Programs\\5belan"
+      },
+      "update": {
+        "enabled": true,
+        "asset": "\\.exe$"
+      }
+    },
+    {
+      "id": "shazam-mini",
+      "name": "Shazam Mini",
+      "description": "Identifies the song playing on any audio output",
+      "category": "Tools",
+      "repo": "https://github.com/not-sal/shazam-mini",
+      "img": "img/shazam.png",
+      "version": "1.0.0",
+      "pinned": true,
+      "desktop": true,
+      "launch": {
+        "paths": [
+          "%LOCALAPPDATA%\\Programs\\shazam-mini\\ShazamMini.exe",
+          "%USERPROFILE%\\Desktop\\shazam app\\ShazamMini\\dist\\ShazamMini\\ShazamMini.exe"
+        ]
+      },
+      "update": {
+        "enabled": true,
+        "asset": "\\.exe$"
+      }
+    },
+    {
+      "id": "my-pdf",
+      "name": "My PDF",
+      "description": "PDF toolkit with Arabic OCR (pdfcraft)",
+      "category": "Tools",
+      "repo": "https://github.com/not-sal/mypdf-releases",
+      "img": "img/mypdf.png",
+      "version": "0.2.24",
+      "pinned": true,
+      "desktop": true,
+      "launch": {
+        "paths": [
+          "%LOCALAPPDATA%\\Programs\\my-pdf\\My PDF.exe"
+        ]
+      },
+      "update": {
+        "enabled": true,
+        "asset": "MyPDF-Setup.*\\.exe$"
+      }
+    }
+  ]
+}
