@@ -1,6 +1,6 @@
 {
   "name": "Launcher XP app catalog",
-  "version": 2,
+  "version": 3,
   "user": "not-sal",
   "hint": "Push this file to github.com/not-sal/launcher-bancher (branch main) with an img/ folder next to it. Every Launcher XP reads it on start: new entries become icons, changed pictures/descriptions are refreshed, and a higher version plus a GitHub release offers an update.",
   "settings": {
@@ -72,6 +72,17 @@
         "enabled": true,
         "asset": "MyPDF-Setup.*\\.exe$"
       }
+    },
+    {
+      "id": "saudi-monopoly",
+      "name": "مونوبولي السعودي",
+      "description": "لعبة مونوبولي سعودية أونلاين متعددة اللاعبين — تفتح في المتصفح",
+      "category": "Games",
+      "repo": "https://ksa-monopoly.online",
+      "img": "img/monopoly.png",
+      "version": "1.0.0",
+      "pinned": true,
+      "desktop": true
     }
   ]
 }
