@@ -1,6 +1,6 @@
 {
   "name": "Launcher XP app catalog",
-  "version": 3,
+  "version": 4,
   "user": "not-sal",
   "hint": "Push this file to github.com/not-sal/launcher-bancher (branch main) with an img/ folder next to it. Every Launcher XP reads it on start: new entries become icons, changed pictures/descriptions are refreshed, and a higher version plus a GitHub release offers an update.",
   "settings": {
